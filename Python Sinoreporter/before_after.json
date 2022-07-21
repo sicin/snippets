@@ -1,0 +1,45 @@
+{
+    "before": {
+        "status": "ok",
+        "totalResults": 223,
+        "articles": [
+            {
+                "source": {
+                    "id": "reuters",
+                    "name": "Reuters"
+                },
+                "author": null,
+                "title": "Chinese regulators to fine Didi more than $1 billion over data breaches - WSJ - Reuters",
+                "description": "Chinese authorities are preparing to impose a fine of more than $1 billion on ride-hailing firm Didi Global that could bring an end to a probe into the company's cybersecurity practices, the Wall Street Journal reported on Tuesday.",
+                "url": "https://www.reuters.com/technology/chinese-regulators-fine-didi-more-than-1-billion-over-data-breaches-wsj-2022-07-19/",
+                "urlToImage": "https://www.reuters.com/resizer/RHVolaa2mo955vYIkoooVH1SAf0=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/7BRDXVEFSNII7OIE4OPMYYSE6M.jpg",
+                "publishedAt": "2022-07-19T10:15:00Z",
+                "content": "July 19 (Reuters) - Chinese authorities are preparing to impose a fine of more than $1 billion on ride-hailing firm Didi Global that could bring an end to a probe into the company's cybersecurity pra\u2026 [+1149 chars]"
+            }
+        ]
+    },
+    "after": {
+        "_id": {
+            "$oid": "62d69d12d465556214df4631"
+        },
+        "source": "Reuters",
+        "title": "Chinese regulators to fine Didi more than $1 billion over data breaches",
+        "url": "https://www.reuters.com/technology/chinese-regulators-fine-didi-more-than-1-billion-over-data-breaches-wsj-2022-07-19/",
+        "urlToImage": "https://www.reuters.com/resizer/RHVolaa2mo955vYIkoooVH1SAf0=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/7BRDXVEFSNII7OIE4OPMYYSE6M.jpg",
+        "publishedAt": {
+            "$date": {
+                "$numberLong": "1658225700000"
+            }
+        },
+        "trailer": "Chinese authorities are preparing to impose a fine of more than $1 billion on ride-hailing firm Didi Global that could bring an end to a probe into the company's cybersecurity practices, the Wall Street Journal reported on Tuesday.",
+        "keywords": "['Didi', 'billion', 'fine', 'company', 'app']",
+        "summary": "The Didi logo is seen on the facade of the company headquarters in Beijing, China November 9, 2021. Chinese authorities are preparing to impose a fine of more than $1 billion on ride-hailing firm Didi Global, people familiar with the matter said on Tuesday, a move that could bring an end to a probe into the firm's cybersecurity practices. The people said the fine would be more than 8 billion yuan, accounting for about 4.7% of Didi's $27.3 billion total revenue last year. Didi's fine would be the largest regulatory penalty imposed on a Chinese tech company since e-commerce titan Alibaba Group and delivery giant Meituan were fined $2.75 billion and $527 million respectively last year by China's antitrust regulator. Didi, co-founded in 2012 by former Alibaba employee Will Wei Cheng and backed by SoftBank Group and Uber Technologies, previously set aside 10 billion yuan for a potential fine, Reuters previously reported. Days after Didi went public, China's powerful internet watchdog, the Cyberspace Administration of China, launched a cybersecurity probe into the company's data practices and ordered app stores to remove 25 mobile apps operated by Didi. The restrictions have chipping away at Didi's dominance and allowed rival ride-hailing services operated by automakers Geely and SAIC Motor to gain market share. Shares of Didi soared in their initial public offering, giving the company a valuation of $80 billion.",
+        "titleTranslated": "Chińscy regulatorzy nałożyli na Didi grzywnę w wysokości ponad 1 miliarda dolarów za naruszenia danych",
+        "keywordsTranslated": "['Didi', 'miliard', 'grzywna', 'firma', 'aplikacja']",
+        "trailerTranslated": "Chińskie władze przygotowują się do nałożenia grzywny w wysokości ponad 1 miliarda dolarów na firmę Didi Global, która może położyć kres śledztwu w sprawie praktyk firmy w zakresie cyberbezpieczeństwa, poinformował we wtorek Wall Street Journal.",
+        "summaryTranslated": "Logo Didi jest widoczne na fasadzie siedziby firmy w Pekinie, Chiny 9 listopada 2021 r. Chińskie władze przygotowują się do nałożenia grzywny w wysokości ponad 1 miliarda dolarów na firmę Didi Global, która dostarcza przejażdżki, poinformowali we wtorek ludzie zaznajomieni z tą sprawą, co może położyć kres śledztwu w sprawie praktyk firmy w zakresie cyberbezpieczeństwa. Ludzie powiedzieli, że grzywna wyniesie ponad 8 miliardów juanów, co stanowi około 4,7% całkowitego przychodu Didi w wysokości 27,3 miliarda dolarów w zeszłym roku. Grzywna dla Didi byłaby największą karą regulacyjną nałożoną na chińską firmę technologiczną od czasu, gdy w zeszłym roku chiński regulator antymonopolowy ukarał tytana handlu elektronicznego Alibaba Group i giganta dostawczego Meituan. Didi, współzałożona w 2012 r. przez byłego pracownika Alibaby, Willa Wei Chenga i wspierana przez SoftBank Group i Uber Technologies, wcześniej odłożyła 10 miliardów juanów na potencjalną grzywnę, podał wcześniej Reuters. Kilka dni po tym, jak Didi upublicznił się, potężny chiński organ nadzorczy Internetu, Chińska Administracja Cyberprzestrzeni, wszczął dochodzenie w sprawie cyberbezpieczeństwa w zakresie praktyk firmy dotyczących danych i nakazał sklepom z aplikacjami usunięcie 25 aplikacji mobilnych obsługiwanych przez Didi. Ograniczenia osłabiły dominację Didi i pozwoliły konkurencyjnym usługom przewozowym prowadzonym przez producentów samochodów Geely i SAIC Motor zdobyć udział w rynku. Akcje Didi poszybowały w górę w swojej pierwszej ofercie publicznej, dając firmie wycenę 80 miliardów dolarów.",
+        "id": {
+            "$numberInt": "44114"
+        }
+    }
+}
