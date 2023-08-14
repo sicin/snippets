@@ -11,7 +11,7 @@ const hoursParent = hoursElFirst.parentNode.parentNode.parentNode;
 const minutesParent = minutesElFirst.parentNode.parentNode.parentNode;
 const secondsParent = secondsElFirst.parentNode.parentNode.parentNode;
 
-const end = "November 29, 2022 12:00:00";
+const end = "November 29, 2023 12:00:00";
 let days;
 let hours;
 let minutes;

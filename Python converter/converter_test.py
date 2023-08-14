@@ -1,21 +1,22 @@
+from typing import Literal
 from converter_trillion import converter_main
 
-progress = ""
+progress: str = ""
 
 
-def x_test_conversion(input_value, expected_result):
+def x_test_conversion(input_value: str, expected_result: str) -> Literal['success', 'failure']:
     try:
         converter_main(input_value)
     except Exception as error:
         print(
             f"\nFAILURE!\nInput= {input_value}\nExpected result= {expected_result}\nReturned result= {error}")
-        return "f"
+        return "failure"
     else:
         if converter_main(input_value) == expected_result:
-            return "s"
+            return "success"
         print(
             f"\nFAILURE!\nInput= {input_value}\nExpected result= {expected_result}\nReturned result= {converter_main(input_value)}")
-        return "f"
+        return "failure"
 
 
 # Conversion
@@ -56,6 +57,7 @@ progress += x_test_conversion("一千一百一十一亿一千一百一十一万�
 progress += x_test_conversion("一千零一亿一千一百一十一万一千一百一十一", str(100111111111))
 
 # Error messages
+progress += x_test_conversion("", "Your input is empty!")
 progress += x_test_conversion("一萬千一百零十一亿一",
                               "一萬千一百零十一亿一 is too high, only numbers lower than 10^12 are allowed.")
 progress += x_test_conversion("一萬千一百零十一亿一千一百零十一万四千七百五十二",
@@ -68,5 +70,5 @@ progress += x_test_conversion("億億",
                               "You need to input Chinese numerals, 億億 is not a proper Chinese number!\nSame characters cannot be next to each other.")
 
 print("\nDone!")
-print("Successful tests: " + str(progress.count("s")))
-print("Failed tests: " + str(progress.count("f")))
+print("Successful tests: " + str(progress.count("success")))
+print("Failed tests: " + str(progress.count("failure")))
