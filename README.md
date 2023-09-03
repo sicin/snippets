@@ -38,4 +38,4 @@ Definitely the biggest achievement at this point was the creation of a pretty co
 
 #### [Test cases](Python%20converter/converter_test.py)
 
-![](Django%20converter/Converter.mp4)
+![](Django%20converter/Converter.gif)
