@@ -37,3 +37,5 @@ Definitely the biggest achievement at this point was the creation of a pretty co
 #### [Algorithm converting Chinese numerals into Arabic numbers](Python%20converter/converter_trillion.py)
 
 #### [Test cases](Python%20converter/converter_test.py)
+
+![](Django%20converter/Converter.mp4)
