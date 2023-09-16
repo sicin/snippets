@@ -1,6 +1,25 @@
 # My Programming Journey
 
+- [Introduction](#introduction)
+- [The Beginnings](#the-beginnings)
+  - [edX Course](#edx-course)
+  - [Bachelor's Thesis](#bachelor-s-thesis)
+- [Leiden University](#leiden-university)
+  - [Attending the _Constructing Digital Language Toolkits_ Class](#attending-the--constructing-digital-language-toolkits--class)
+  - [Researching China’s Role in Cyber Security](#researching-china-s-role-in-cyber-security)
+  - [Web Content Creator for OpenPhilology](#web-content-creator-for-openphilology)
+  - [TAing for _Constructing Digital Language Toolkits_ Class](#taing-for--constructing-digital-language-toolkits--class)
+- [Sinoreporter](#sinoreporter)
+- [Freelancing](#freelancing)
+- [Simplicity](#simplicity)
+
+<br>
+
+# Introduction
+
 This repository outlines my IT experience, presenting the progress and projects I made throughout my programming journey. Apart from learning about my background, I will be providing excerpts from code I have written (anonymized where necessary).
+
+<br>
 
 # The Beginnings
 
@@ -23,6 +42,8 @@ It all started with [Microsoft's Python course on edX](https://learning.edx.org/
 Back then I only wanted to learn Python for my research in general and my Bachelor's thesis in particular. I was able to apply this newly obtained skill into my thesis, graphing out text reuse between several ancient Chinese texts. The inclusion of digital humanities section was met with much interest and recognition from the reviewers.
 
 ![N-gram text reuse](Images/thesis.png)
+
+<br>
 
 # Leiden University
 
@@ -72,6 +93,8 @@ Creating web content for OpenPhilology was my other part-time job back then. Apa
 
 ## TAing for _Constructing Digital Language Toolkits_ Class
 
+### ~1y Python experience
+
 **Stack: Python (Pandas, Matplotlib), Django, Bash**
 
 As the new academic year started, I was asked by Dr. Handy whether I'd be open to become the Teaching Assistant for his class. I loved the idea and immediately agreed.
@@ -85,3 +108,15 @@ I was tasked with tutoring students and helping them with their homeworks and fi
 As you can see, the last few days before the final deadline were hectic! I was also spending most of my time helping students with their projects. Most were done in Django, making it a good practice for me as well. Some created basic websites, others opted for specialized dictionaries, one person even made an Anki-like flashcards app.
 
 The class was a huge success and many more students handed out their final assignments than years prior!
+
+#### [Bash script run by a cronjob](Python%20and%20Bash%20server%20presence%20tool/stalker_prog/stalker.sh)
+
+#### [Processing and analyzing data with Python](Python%20and%20Bash%20server%20presence%20tool/stalker_prog.ipynb)
+
+<br>
+
+# Sinoreporter
+
+### > 1y Python experience
+
+**Stack: Python, Django, MongoDB, (Atlas + Charts) HTML, CSS (Bootstrap), Raspberry PI, Heroku**
