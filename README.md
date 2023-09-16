@@ -26,6 +26,8 @@ The course was taught by [Dr. Christopher Handy](https://github.com/handyc), an 
 
 Fueled by a deep passion for the subject I went far and beyond with my final project. I created a full-fledged, responsive (albeit a bit ugly) website converting Chinese units and measurements into their Western counterparts.
 
+![](Django%20converter/Converter.gif)
+
 Definitely the biggest achievement at this point was the creation of a pretty complex algorithm converting Chinese numerals into Arabic numbers. Since there were no real examples (and one algorithm written in Perl actually had erroneous output in many cases) I had to create it from ground-up. Here's the code if you're interested (types were added later) and some examples:
 
 一千二百三十四亿五千六百七十八万九千 --> 123456789000
@@ -38,4 +40,4 @@ Definitely the biggest achievement at this point was the creation of a pretty co
 
 #### [Test cases](Python%20converter/converter_test.py)
 
-![](Django%20converter/Converter.gif)
+
