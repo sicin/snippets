@@ -4,6 +4,8 @@ This repository outlines my IT experience, presenting the progress and projects 
 
 # The beginnings
 
+## edX course
+
 ### < 1y Python experience
 
 **Stack: Python (Jupyter Notebook)**
@@ -14,13 +16,21 @@ It all started with [Microsoft's Python course on edX](https://learning.edx.org/
 
 #### [Link to my solution](edX%20Course/adding_report.py)
 
+## Bachelor's thesis
+
+Back then I only wanted to learn Python for my research in general and my Bachelor's thesis in particular. I was able to apply this newly obtained skill into my thesis, graphing out text reuse between several ancient Chinese texts. The inclusion of digital humanities section was met with much interest and recognition from the reviewers.
+
+![The forever (while True) loop diagram](Images/thesis.png)
+
 # Leiden University
+
+## Attending the 'Constructing Digital Language Toolkits' class
 
 ### < 1y Python experience
 
 **Stack: Python, Django, HTML, CSS**
 
-One of my motivations for applying for a Master's Degree in Chinese Studies was that I saw them having a course on "Creating Digital Toolkits for Humanities", which was exactly what I wanted at the time. Combining programming with my major and interests, that sounded great. And it was great!
+One of my motivations for applying for a Master's Degree in Chinese Studies was that I saw them having a course on "Constructing Digital Language Toolkits", which was exactly what I wanted at the time. Combining programming with my major and interests, that sounded great. And it was great!
 
 The course was taught by [Dr. Christopher Handy](https://github.com/handyc), an amazing person to whom I owe a lot, since he enabled me to delve deeper into the world of programming. During this one-semester course we were learning the basics of unix systems and command line, SQL databases, HTML, CSS, JavaScript, Python, and Django.
 
@@ -39,5 +49,3 @@ Definitely the biggest achievement at this point was the creation of a pretty co
 #### [Algorithm converting Chinese numerals into Arabic numbers](Python%20converter/converter_trillion.py)
 
 #### [Test cases](Python%20converter/converter_test.py)
-
-
