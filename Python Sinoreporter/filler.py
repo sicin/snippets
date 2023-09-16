@@ -1,4 +1,3 @@
-from datetime import date, datetime
 import datetime as dt
 
 from config import smmry_api_key, news_api_key, mongo_db
@@ -9,10 +8,10 @@ from translator import translate_summaries
 from cleaner import clean_directories
 from connect_mongo import send_to_db
 
-today: date = dt.date.today()
+today: dt.date = dt.date.today()
 root_folder = str(today)
 
-now_datetime: datetime = dt.datetime.now() - dt.timedelta(hours=2)
+now_datetime: dt.datetime = dt.datetime.now() - dt.timedelta(hours=2)
 past: str = (now_datetime - dt.timedelta(hours=24)
              ).replace(microsecond=0).isoformat()
 now: str = now_datetime.replace(microsecond=0).isoformat()
@@ -39,7 +38,7 @@ def checker() -> int:
             break
         else:
             counter -= 1
-    requests_left: int = requests_left+counter
+    requests_left += counter
     return requests_left
 
 

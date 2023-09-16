@@ -68,7 +68,7 @@ def converter_main(user_input: str) -> str:
     unverified_num_list: list[Any] = [
         numbers_dict.get(l, l) for l in user_input]
 
-    if len(unverified_num_list) < 1:
+    if not unverified_num_list:
         return "Your input is empty!"
 
     if all(isinstance(x, int) for x in unverified_num_list):
@@ -161,15 +161,14 @@ def converter_main(user_input: str) -> str:
 
     if final_append == 0:
         return str(added_up)
-    else:
-        append_list = list(map(int, str(added_up)))
-        non_zero_pos = 0
-        for z in reversed(append_list):
-            non_zero_pos -= 1
-            if z != 0:
-                append_list[non_zero_pos + 1] = final_append
-                return "".join(str(e) for e in append_list)
-        return "Unknown error"
+    append_list = list(map(int, str(added_up)))
+    non_zero_pos = 0
+    for z in reversed(append_list):
+        non_zero_pos -= 1
+        if z != 0:
+            append_list[non_zero_pos + 1] = final_append
+            return "".join(str(e) for e in append_list)
+    return "Unknown error"
 
 
 if __name__ == "__main__":

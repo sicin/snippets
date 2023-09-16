@@ -11,19 +11,17 @@ a_style = 'style="color: #98FB98;"'
 def get_button_text(content):
     button_text = re.search(
         r'<table><tr><td><p>.+</p></td></tr></table>', content)
-    button_text = button_text.group(0)
-    button_text = re.sub(
-        r'<table><tr><td><p>(.+)</p></td></tr></table>', '\g<1>', button_text)
-    return button_text
+    button_text = button_text[0]
+    return re.sub(
+        r'<table><tr><td><p>(.+)</p></td></tr></table>', '\g<1>', button_text
+    )
 
 
 def get_bellow_button_text(content):
     below_button_text = re.search(
         r'</td></tr></table>(.+|)</div>', content)
-    below_button_text = below_button_text.group(0)
-    below_button_text = re.sub(
-        r'</td></tr></table>(.+|)</div>', '\g<1>', below_button_text)
-    return below_button_text
+    below_button_text = below_button_text[0]
+    return re.sub(r'</td></tr></table>(.+|)</div>', '\g<1>', below_button_text)
 
 
 def get_content(below_button_text, button_text, content):
