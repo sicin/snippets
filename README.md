@@ -12,6 +12,7 @@
 - [Sinoreporter](#sinoreporter)
 - [Freelancing](#freelancing)
 - [Simplicity](#simplicity)
+- [Personal Projects](#projects)
 
 <br>
 
@@ -29,11 +30,14 @@ This repository outlines my IT experience, presenting the progress and projects 
 
 **Stack: Python (Jupyter Notebook)**
 
-It all started with [Microsoft's Python course on edX](https://learning.edx.org/course/course-v1:Microsoft+DEV236x+1T2017/home). It was my first experience with for loops, while statements, functions, if/else, etc. I found the topic extremely interesting and completed the whole course, learning about the basics of programming in the process. Below is the final assignment diagram:
+It all started in 2017 with [Microsoft's Python course on edX](https://learning.edx.org/course/course-v1:Microsoft+DEV236x+1T2017/home). It was my first experience with for loops, while statements, functions, if/else, etc. I found the topic extremely interesting and completed the whole course, learning about the basics of programming in the process. Below is the final assignment diagram:
 
 ![The forever (while True) loop diagram](Images/final-assignment.png)
 
-#### [Link to my solution](edX%20Course/adding_report.py)
+#### [Link to my solution](Certificates/adding_report.py)
+
+Soon after I completed another course from DataCamp:
+![The forever (while True) loop diagram](Certificates/datacamp.png)
 
 <br>
 
@@ -59,7 +63,7 @@ The course was taught by [Dr. Christopher Handy](https://github.com/handyc), an 
 
 Fueled by a deep passion for the subject I went far and beyond with my final project. I created a full-fledged, responsive (albeit a bit ugly) website converting Chinese units and measurements into their Western counterparts.
 
-![](Django%20converter/Converter.gif)
+![](DjangoConverter/Converter.gif)
 
 Definitely the biggest achievement at this point was the creation of a pretty complex algorithm converting Chinese numerals into Arabic numbers. Since there were no real examples (and one algorithm written in Perl actually had erroneous output in many cases) I had to create it from ground-up. Here's the code if you're interested (types were added later) and some examples:
 
@@ -69,9 +73,9 @@ Definitely the biggest achievement at this point was the creation of a pretty co
 
 二亿五千四百三十一万五千 --> 254315000
 
-#### [Algorithm converting Chinese numerals into Arabic numbers](Python%20converter/converter_trillion.py)
+#### [Algorithm converting Chinese numerals into Arabic numbers](PythonConverterAlgorithm/converter_trillion.py)
 
-#### [Test cases](Python%20converter/converter_test.py)
+#### [Test cases](PythonConverterAlgorithm/converter_test.py)
 
 <br>
 
@@ -109,9 +113,9 @@ As you can see, the last few days before the final deadline were hectic! I was a
 
 The class was a huge success and many more students handed out their final assignments than years prior!
 
-#### [Bash script run by a cronjob](Python%20and%20Bash%20server%20presence%20tool/stalker_prog/stalker.sh)
+#### [Bash script run by a cronjob](PythonServerPresenceTool/stalker_prog/stalker.sh)
 
-#### [Processing and analyzing data with Python](Python%20and%20Bash%20server%20presence%20tool/stalker_prog.ipynb)
+#### [Processing and analyzing data with Python](PythonServerPresenceTool/stalker_prog.ipynb)
 
 <br>
 
@@ -119,4 +123,20 @@ The class was a huge success and many more students handed out their final assig
 
 ### > 1y Python experience
 
-**Stack: Python, Django, MongoDB, (Atlas + Charts) HTML, CSS (Bootstrap), Raspberry PI, Heroku**
+**Stack: Python, Django, MongoDB (Atlas + Charts), HTML, CSS (Bootstrap), Raspberry PI, Heroku**
+
+# Freelancing
+
+### >
+
+**Stack: Python, Django, React, CSS (SASS), PostgreSQL**
+
+# Simplicity
+
+### >
+
+# Personal Projects
+
+## WWN Character Sheet Creator
+
+## Playing around in C
