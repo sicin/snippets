@@ -34,10 +34,14 @@ It all started in 2017 with [Microsoft's Python course on edX](https://learning.
 
 ![The forever (while True) loop diagram](Images/final-assignment.png)
 
+<img src="Images/final-assignment.png" alt="The forever (while True) loop diagram" width="400">
+
 #### [Link to my solution](Certificates/adding_report.py)
 
 Soon after I completed another course from DataCamp:
-![The forever (while True) loop diagram](Certificates/datacamp.png)
+![DataCamp certificate](Certificates/datacamp.png)
+
+<img src="Certificates/datacamp.png" alt="DataCamp certificate" width="400">
 
 <br>
 
@@ -113,7 +117,7 @@ As you can see, the last few days before the final deadline were hectic! I was a
 
 The class was a huge success and many more students handed out their final assignments than years prior!
 
-#### [Bash script run by a cronjob](PythonServerPresenceTool/stalker_prog/stalker.sh)
+#### [Bash script run by a cronjob](PythonServerPresenceTool/stalker.sh)
 
 #### [Processing and analyzing data with Python](PythonServerPresenceTool/stalker_prog.ipynb)
 
