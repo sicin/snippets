@@ -26,11 +26,12 @@ This repository outlines my IT experience, presenting the progress and projects 
 
 ## edX Course
 
-### < 1y Python experience
+### < 1 yr. Python experience
 
 **Stack: Python (Jupyter Notebook)**
 
 It all started in 2017 with [Microsoft's Python course on edX](https://learning.edx.org/course/course-v1:Microsoft+DEV236x+1T2017/home). It was my first experience with for loops, while statements, functions, if/else, etc. I found the topic extremely interesting and completed the whole course, learning about the basics of programming in the process. Below is the final assignment diagram:
+
 <img src="Images/final-assignment.png" alt="The forever (while True) loop diagram" width="500">
 
 #### [Link to my solution](Certificates/adding_report.py)
@@ -52,7 +53,7 @@ Back then I only wanted to learn Python for my research in general and my Bachel
 
 ## Attending the _Constructing Digital Language Toolkits_ Class
 
-### < 1y Python experience
+### < 1 yr. Python experience
 
 **Stack: Python, Django, HTML, CSS**
 
@@ -96,7 +97,7 @@ Creating web content for OpenPhilology was my other part-time job back then. Apa
 
 ## TAing for _Constructing Digital Language Toolkits_ Class
 
-### ~1y Python experience
+### ~1 yr. Python experience
 
 **Stack: Python (Pandas, Matplotlib), Django, Bash**
 
@@ -120,22 +121,22 @@ The class was a huge success and many more students handed out their final assig
 
 # Sinoreporter
 
-### > 1y Python experience
+### > 1 yr. Python experience
 
-**Stack: Python, Django, MongoDB (Atlas + Charts), HTML, CSS (Bootstrap), Raspberry PI, Heroku**
+**Stack: Python, Django, MongoDB (Atlas + Charts), CSS (Bootstrap), Raspberry PI, Heroku**
 
 # Freelancing
-
-### >
 
 **Stack: Python, Django, React, CSS (SASS), PostgreSQL**
 
 # Simplicity
 
-### >
+### > 3 yrs Python experience </br> > 2 yrs React experience
+
+**Stack: TypeScript, Python, React, Node.js, MongoDB, CSS (SASS, Tailwind CSS), Material UI, RabbitMQ, Elasticsearch, Docker, Kubernetes**
 
 # Personal Projects
 
 ## WWN Character Sheet Creator
 
-## Playing around in C
+## Playing around with C
