@@ -34,14 +34,14 @@ It all started in 2017 with [Microsoft's Python course on edX](https://learning.
 
 ![The forever (while True) loop diagram](Images/final-assignment.png)
 
-<img src="Images/final-assignment.png" alt="The forever (while True) loop diagram" width="400">
+<img src="Images/final-assignment.png" alt="The forever (while True) loop diagram" width="500">
 
 #### [Link to my solution](Certificates/adding_report.py)
 
 Soon after I completed another course from DataCamp:
 ![DataCamp certificate](Certificates/datacamp.png)
 
-<img src="Certificates/datacamp.png" alt="DataCamp certificate" width="400">
+<img src="Certificates/datacamp.png" alt="DataCamp certificate" width="500">
 
 <br>
 
@@ -110,6 +110,7 @@ As the new academic year started, I was asked by Dr. Handy whether I'd be open t
 I was tasked with tutoring students and helping them with their homeworks and final projects. However, since the class was taking place online, with students having to log into the server, I created a tool tracking students' presence on the server.
 
 ![Assignment 10](Images/assignment-10.png)
+<img src="Images/assignment-10.png" alt="Assignment 10" width="500">
 ![Deadline madness](Images/deadline.png)
 ![Total time spent on the server](Images/time-spent.png)
 
