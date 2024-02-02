@@ -41,10 +41,9 @@ def generic_converter(request, measurement: str):
     except AttributeError:
         modules["values"] = copy.deepcopy(modules_clear["values"])
         return render(request, converter_html, modules)
-    else:
-        modules["values"][measurement]["data"] = unit_conversion(
-            user_input, module, period, unit)
-        return render(request, converter_html, modules)
+    modules["values"][measurement]["data"] = unit_conversion(
+        user_input, module, period, unit)
+    return render(request, converter_html, modules)
 
 
 def mass(request):
@@ -71,8 +70,7 @@ def complex_converter(request, script_used, conversion_type: str):
     except TypeError:
         modules["values"] = copy.deepcopy(modules_clear["values"])
         return render(request, converter_html, modules)
-    else:
-        return render(request, converter_html, modules)
+    return render(request, converter_html, modules)
 
 
 def numbers(request):
@@ -93,8 +91,7 @@ def complex_converter_choice(request, script_used, conversion_type: str):
     except (TypeError, AttributeError):
         modules["values"] = copy.deepcopy(modules_clear["values"])
         return render(request, converter_html, modules)
-    else:
-        return render(request, converter_html, modules)
+    return render(request, converter_html, modules)
 
 
 def reverse_numbers(request):

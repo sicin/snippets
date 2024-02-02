@@ -108,7 +108,7 @@ def converter_main(user_input: str) -> str:
         process_mapping[value][1] += 1
 
     def process_sum(process_position: int) -> int:
-        return sum(process_mapping[k][process_position] for k in process_mapping)
+        return sum(value[process_position] for _, value in process_mapping.items())
 
     if num_list[0] > 10:
         num_list.insert(0, 1)

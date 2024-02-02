@@ -11,12 +11,11 @@ def x_test_conversion(input_value: str, expected_result: str) -> Literal['succes
         print(
             f"\nFAILURE!\nInput= {input_value}\nExpected result= {expected_result}\nReturned result= {error}")
         return "failure"
-    else:
-        if converter_main(input_value) == expected_result:
-            return "success"
-        print(
-            f"\nFAILURE!\nInput= {input_value}\nExpected result= {expected_result}\nReturned result= {converter_main(input_value)}")
-        return "failure"
+    if converter_main(input_value) == expected_result:
+        return "success"
+    print(
+        f"\nFAILURE!\nInput= {input_value}\nExpected result= {expected_result}\nReturned result= {converter_main(input_value)}")
+    return "failure"
 
 
 # Conversion
@@ -62,12 +61,14 @@ progress += x_test_conversion("一萬千一百零十一亿一",
                               "一萬千一百零十一亿一 is too high, only numbers lower than 10^12 are allowed.")
 progress += x_test_conversion("一萬千一百零十一亿一千一百零十一万四千七百五十二",
                               "一萬千一百零十一亿一千一百零十一万四千七百五十二 is too high, only numbers lower than 10^12 are allowed.")
-progress += x_test_conversion("a",
-                              "You need to input Chinese numerals, a is not a proper Chinese number!\nThe characters are not all numbers.")
-progress += x_test_conversion("十十",
-                              "You need to input Chinese numerals, 十十 is not a proper Chinese number!\nSame characters cannot be next to each other.")
-progress += x_test_conversion("億億",
-                              "You need to input Chinese numerals, 億億 is not a proper Chinese number!\nSame characters cannot be next to each other.")
+progress += x_test_conversion(
+    "a", "You need to input Chinese numerals, a is not a proper Chinese number!\nThe characters are not all numbers.")
+progress += x_test_conversion(
+    "十十",
+    "You need to input Chinese numerals, 十十 is not a proper Chinese number!\nSame characters cannot be next to each other.")
+progress += x_test_conversion(
+    "億億",
+    "You need to input Chinese numerals, 億億 is not a proper Chinese number!\nSame characters cannot be next to each other.")
 
 print("\nDone!")
 print("Successful tests: " + str(progress.count("success")))
