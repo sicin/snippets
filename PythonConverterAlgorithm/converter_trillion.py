@@ -48,8 +48,7 @@ def multiply_value(pre_value: int, value: int) -> int:
 def process_num_list_value(value: int, value_pos: int, list_of_numbers: list[int]) -> int:
     if value_pos == 0:
         return value
-    else:
-        pre_value: int = list_of_numbers[value_pos - 1]
+    pre_value: int = list_of_numbers[value_pos - 1]
     return multiply_value(pre_value, value)
 
 
