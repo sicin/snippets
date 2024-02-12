@@ -101,7 +101,7 @@ Creating web content for OpenPhilology was my other part-time job back then. Apa
 
 **Stack: Python (Pandas, Matplotlib), Django, Bash**
 
-As the new academic year started, I was asked by Dr. Handy whether I'd be open to become the Teaching Assistant for his class. I loved the idea and immediately agreed.
+As the new academic year started, I was asked by Chris Handy whether I'd be open to become the Teaching Assistant for his class. I loved the idea and immediately agreed.
 
 I was tasked with tutoring students and helping them with their homeworks and final projects. However, since the class was taking place online, with students having to log into the server, I created a tool tracking students' presence on the server.
 
@@ -125,6 +125,16 @@ The class was a huge success and many more students handed out their final assig
 
 **Stack: Python, Django, MongoDB (Atlas + Charts), CSS (Bootstrap), Raspberry PI, Heroku**
 
+As thanks for TAing, Chris gifted me Raspberry Pi 4, which was a great, nerdy present. I was deliberating how to use it best and soon came up with an idea I'd had for quite some time - to create a news site with articles about China from all over the world! But why would anyone need a Raspberry Pi for that? Well, I decided to fully automate the process and provide China news to the world in a concise form (infopills as you may).
+
+The first step was finding proper APIs for gathering news, creating summaries, and translating them. My choice for the news was the industry standard, NewsAPI. As for the other two, I decided on SMMRY and Google Translate. In a few short weeks my news-generating machine was ready. You can find some snippets of the script here: link.
+
+Due to my prior experience with Django, it was a no-brainer, unfortunately I made a mistake of choosing a NoSQL database (MongoDB), which is totally not compatible with the Django ORM and the connector library *djongo* made it impossible for me to update the dependencies...Basically, a huge nuisance, especially since my data is now structured and consistent. The unavoidable migration process to PostgreSQL is still not finished at the day of writing this text.
+
+When everything was set and ready, I deployed the app to Heroku (when I started with the code it still used to be free), bought a domain on Gandi.net and spun up a new database on MongoDB Atlas and embellished it with some basic graphs using MongoDB Charts. Thus, Sinoreporter.com had come to existance, and every 2 hours new articles - fully summarized and translated into Polish - were being added to the website. Shortly after I also decided to add translated Chinese headlines to the mix.
+
+As of writing this text, there are over 70k articles, 200k headlines, and 200 registered users. Not a huge success commercially but it was never supposed to be. It was still a success for me, since I was able to single-handadly create a complete web application from the very first commit to a sucessful deployment.
+
 # Freelancing
 
 **Stack: Python, Django, React, CSS (SASS), PostgreSQL**
@@ -140,3 +150,5 @@ The class was a huge success and many more students handed out their final assig
 ## WWN Character Sheet Creator
 
 ## Playing around with C
+
+## JSON Complexity App
